@@ -38,7 +38,7 @@ public class XMLWriter {
        String codigo;
        String descricion;
        String precio;
-       
+       //Indicamos que mientras haya algo que leer, que contiene leyendo y escribiendo
        while(prod != null){
            
            xmlWriter.writeStartElement("Producto_" + Integer.toString(datos));
